@@ -1,0 +1,19 @@
+.signupbtn{
+    height: 30%;
+    width: 50%;
+}
+.maindiv{
+    text-align: center;
+}
+.label{
+    margin-left: -100px;
+}
+
+
+
+/* .......SINGUP....... */
+
+
+.signup{
+    background-color: grey;
+}
