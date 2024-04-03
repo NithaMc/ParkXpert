@@ -1,0 +1,21 @@
+.profile{
+    width: 600px;
+    height: 750px;
+    overflow-y: scroll;
+    margin: auto;
+    background-color: rgb(43, 42, 42);
+    /* opacity: 0.1; */
+
+        margin-top: 5%;
+        background-color:rgb(36, 35, 35);
+        translate: (0,0,0.5);
+    
+        align-items: center;
+        border-radius: 10px;
+  
+      
+}
+.imgg{
+    margin: auto;
+    width: 100px;
+}

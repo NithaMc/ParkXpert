@@ -1,0 +1,232 @@
+
+.contain{
+  position: absolute;
+  z-index: -1;
+  left:0px;
+  right: 0px;
+  margin: auto;
+}
+.head{
+  font-size:xx-large;
+  font-family: cursive;
+}
+
+/* HOME */
+
+.knowmorecolumn{
+width: 290px;
+align-items: center;
+ /* height: fit-content; */
+ height: 300px;
+height: max-content;
+background-color: rgb(66, 65, 65);
+/* opacity: 0.3; */
+color: white;
+margin-right: 50px;
+margin: auto;
+}
+
+.knowmore{
+font-size: 30px;
+
+
+}
+
+.signtxt{
+  color: black;
+}
+.fullcontain{
+  padding: 30px;
+}
+
+.news{
+  width: 100%;
+  height: 50px;
+  color: white;
+  padding: 30px;
+}
+.img{
+  margin-top: 4px;
+  width: 100%;
+  height: fit-content;
+  display: block;
+  border-radius: 6%;
+}
+.imag{
+/* margin: auto; */
+width: 100%;
+opacity: 0.5;
+/* height: fit-content; */
+height: 500px;
+/* display: block; */
+/* transform: translate(-50%,-50%); */
+}
+
+.footer{
+margin-top: 100px;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  text-align: left; 
+}
+.homehead{
+  font-size:xx-large;
+  font-family: cursive;
+ 
+}
+.navbar a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+ 
+}
+
+
+
+
+.txt:hover {
+  text-decoration: underline;
+  color: rgb(251, 146, 60);
+}
+.navbar {
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.nav{
+
+  background-color: white;
+  padding: 15px 20px;
+  box-sizing: border-box;
+ 
+}
+.firstnsv{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%; 
+  z-index: 1000;
+}
+.parkhead{
+font-size:xx-large;
+font-family: cursive;
+
+}
+/* .circle{
+
+  position: absolute;
+  top: 200px; Adjust the top position as needed
+  left: 85%;
+  transform: translate(-50%, -50%);
+  width: 300px; Adjust the width as needed
+  border-radius: 50%;
+  padding: 20px;
+  border: 1px solid #494848; Add a border for a card-like appearance
+  background-color: #353434; Add a background color
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); Add a box shadow for depth
+  z-index: 1; Ensure the card appears above other elements */
+  /* width: 100px;
+  height: 100px;
+} */
+
+.linksignup{
+margin-top: -30px;
+margin-right: -200px;
+color: coral;
+}
+
+.booking{
+  position: relative;
+opacity: .9;
+margin-left:7% ;
+margin-top: -180px;
+top: 100%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: coral;
+font-size: 35px;
+height: fit-content;
+
+}
+@media (max-width:768px) {
+.container-fluid{
+  padding: 0 20px;
+}
+.text{
+  font-size: 14px;
+}
+.bookinclass{
+  width: 450px;
+  height: 100px;
+  margin-top: 300px;
+  font-size: 14px;
+}
+
+}
+@media (max-width:567px) {
+.container-fluid{
+  padding: 0 10px;
+}
+.text{
+  font-size: 12px;
+}
+.bookinclass{
+  width: 450px;
+  height: 150px;
+}
+}
+@media (max-width:768) {
+.flx{
+  flex-direction: column;
+
+}  
+.column{
+  flex-basis: calc(50%-20px);
+}
+}
+
+
+/* ............................... */
+/* .header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #fff;
+  transition: all 1s cubic-bezier(.25,.1,.23,1);
+  border-bottom: 3px solid #000;
+  max-width: 1380px;
+  margin: 0 auto;
+}
+.header:before {
+  content: "";
+  width: 100%;
+  height: calc(100% + 3px);
+  position: absolute;
+  top: 0;
+  background-color: #fff;
+  border-bottom: 3px solid #000;
+  display: block;
+  z-index: 2;
+}
+.header-container{
+  background: #fff;
+  z-index: 3;
+  padding: 0 20px;
+position:relative
+
+}
+.site-nav{
+  position: relative;
+  z-index: 10000;
+    height: 75px;
+} */
+ 

@@ -1,0 +1,46 @@
+.maindiiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(43, 42, 42);
+    padding: 60px;
+}
+.seconddiv{
+    /* margin-top: ; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 850px;
+    height: 600px;
+    background-color: rgb(26, 25, 25);
+    border-radius: 10px;
+    padding: 50px;
+    color: white;
+}
+.inputs{
+    margin: 10px;
+    width: 300px;
+    color: white;
+    background-color:rgb(26, 25, 25) ;
+    margin-top: 10px;
+}
+.regibutton{
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+
+.userimg{
+    width: 50px;
+    height: 50px;
+    margin-left: -200px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+  }

@@ -1,0 +1,61 @@
+/* .containerrs{
+    background-color: black;
+    width: 1500px;
+    height: fit-content ;
+} */
+.searchbar{
+    margin-left: 40%;
+    position: relative;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(214, 198, 52, 0.2);
+  }
+
+  .companycard-details {
+    font-size: 30px;
+    background-color: rgba(7, 7, 7, 0.8);
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px; 
+    height:310px;
+    color: white;
+    margin-right: 10px; 
+  }
+.desigsndiv{
+  background-color: rgb(48, 46, 46);
+  height: 80px;
+  width: 100%;
+  position: relative;
+}
+.imgs{
+  position: absolute;
+  height: fit-content;
+  overflow-y: scroll;
+  
+}
+.gridcontainer{
+  position: relative;
+  display: inline-block; 
+  padding: 20px;
+  
+}
+@media screen and (max-width: 768px) {
+  .companycard-details {
+    width: 140px; 
+    height: 200px;
+    font-size: 14px;
+  }
+  .imgs{
+    height: 1000px;
+  }
+}
+#search-icon{
+  z-index: 1;
+  top: 32px;
+  left: 3%;
+  position: absolute;
+}

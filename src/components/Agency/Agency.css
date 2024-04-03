@@ -1,0 +1,14 @@
+.contain{
+    position: absolute;
+    z-index: -1;
+    left:0px;
+    right: 0px;
+}
+.head{
+    font-size:xx-large;
+    font-family: cursive;
+}
+/* .backimage{
+    background-image: url();
+   
+} */

@@ -1,0 +1,58 @@
+    
+    
+  /* services   */
+                .txt{
+                    font-size: 40px;
+                
+                }
+                .head{
+                    font-size: 25px;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+
+                }
+                .div{
+
+                    /* box-shadow: 0px 0px 3px 3px; */
+                    height: fit-content;
+                    align-items: center;
+                    justify-content: center;
+                    margin: auto;
+                    padding: 38px;
+                }
+                .secdiv{
+                    width: 750px;
+                }
+                .enviro{
+                    width:750px;
+                }
+ /* About */
+                .aboutmaintxt{
+                    justify-content: center;
+                    padding: 55px;
+                    width: 800px;
+
+                }
+                .whyus{
+                    justify-content: center;
+                    text-align: center;
+                    color: rgb(251, 146, 60);
+                    align-items: center;
+                    font-size: 30px;
+                }
+                .column{
+                    width: 300px;
+                    height: 350px;
+                    align-items: center;
+                    /* height: fit-content; */
+                    background-color: rgb(66, 65, 65);
+                    color: white;
+                    margin-top: 30px;
+                }
+                .flx{
+                    justify-content: space-evenly;
+                    align-items: center;
+                }
+                .inhead{
+                    font-size: 30px;
+                    color: rgb(250, 161, 88);;
+                }
